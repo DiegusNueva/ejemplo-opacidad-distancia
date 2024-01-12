@@ -1,0 +1,43 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #f4f4f4;
+    text-align: center;
+    padding: 50px;
+    background-image: url(../assets/fondoBody.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+h1 {
+    font-size: 18px;
+    font-style: italic;
+    color: #333;
+    line-height: 1.5;
+}
+
+p {
+    font-size: 18px;
+    font-style: italic;
+    color: #555;
+    line-height: 1.5;
+}
+
+.styled-box {
+    width: 300px;
+    padding: 20px;
+    margin: 20px auto;
+    background-color: #fff;
+    border: 2px solid #ccc;
+    border-radius: 8px;
+    text-align: left;
+    opacity: .85;
+}
+
+.styled-box:hover {
+    opacity: 1;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+    /* -webkit-box-shadow: 12px 15px 12px -6px rgba(0, 0, 0, 0.75);
+    -moz-box-shadow: 12px 15px 12px -6px rgba(0, 0, 0, 0.75);
+    box-shadow: 12px 15px 12px -6px rgba(0, 0, 0, 0.75); */
+}
